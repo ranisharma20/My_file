@@ -1,0 +1,6 @@
+f1=open("marks.txt","r")
+f2=open("marks1.txt","w")
+data=f1.read()
+f2.write(data)
+f1.close()
+f2.close()
